@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack.Array", "Stack.Array\Stack.Array.csproj", "{7DAA5E06-D160-4A5F-806B-A0201DD73D6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stack_Array", "Stack.Array\Stack_Array.csproj", "{7DAA5E06-D160-4A5F-806B-A0201DD73D6A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostfixCalc", "PostfixCalc\PostfixCalc.csproj", "{9002B215-0147-499E-8B73-79937EDE85C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack_List", "Stack_List\Stack_List.csproj", "{B7100C79-7B58-4EAC-8ED2-71F3E904143F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stack_List", "Stack_List\Stack_List.csproj", "{B7100C79-7B58-4EAC-8ED2-71F3E904143F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UndoAction", "UndoAction\UndoAction.csproj", "{A2AC396B-6F71-49D0-BF67-2C895862EF4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack.Tests", "..\..\..\Desktop\Study\C #\Data Structure and Algorithms\ads-part1\materials\ads-stack-exercise-files\Stack.Tests\Stack.Tests.csproj", "{4FE3B420-7E63-4C2F-91B4-1536AA42A74F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{B7100C79-7B58-4EAC-8ED2-71F3E904143F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7100C79-7B58-4EAC-8ED2-71F3E904143F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7100C79-7B58-4EAC-8ED2-71F3E904143F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2AC396B-6F71-49D0-BF67-2C895862EF4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2AC396B-6F71-49D0-BF67-2C895862EF4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2AC396B-6F71-49D0-BF67-2C895862EF4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2AC396B-6F71-49D0-BF67-2C895862EF4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FE3B420-7E63-4C2F-91B4-1536AA42A74F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FE3B420-7E63-4C2F-91B4-1536AA42A74F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FE3B420-7E63-4C2F-91B4-1536AA42A74F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FE3B420-7E63-4C2F-91B4-1536AA42A74F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
